@@ -1,19 +1,10 @@
-package hk.edu.hkbu.comp.comp4107.playground.kennycheng
+package hk.edu.hkbu.comp.comp4107.playground.huangbingyu
 
-class SelfIntro {
-    fun introduce() {
-        val name = "Kenny Cheng"
-        val age = 20
-        val major = "Computer Science"
-        val university = "Hong Kong Baptist University"
-        val hobbies = listOf("Programming", "Reading", "Gaming", "Music", "Movies", "Travelling")
-        val languages = listOf("Cantonese", "English", "Mandarin", "Japanese")
-        val programmingLanguages = listOf("Java", "Kotlin", "Python", "C", "C++", "C#", "JavaScript", "TypeScript", "HTML", "CSS", "Go", "Rust", "Swift", "Dart")
-        println("Hello, I'm $name.")
-        println("I'm $age years old.")
-        println("I'm studying $major at $university.")
-        println("My hobbies are $hobbies.")
-        println("I can speak $languages.")
-        println("I'm familiar with $programmingLanguages.")
+class SelfIntroduction {
+    fun selfIntroduction() {
+        println("Hello, my name is <Your Full Name>.")
+        println("I am a student at HKBU.")
+        println("I am studying Computer Science.")
+        println("I am interested in machine learning.")
     }
 }
